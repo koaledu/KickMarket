@@ -14,7 +14,7 @@ Página web de comercio electrónico de zapatos.
 4. Abre tu navegador web y visita `http://localhost:5276`
 
 ```
-https://github.com/koaledu/KickMarket.git
+git clone https://github.com/koaledu/KickMarket.git
 cd KickMarket
 dotnet run
 ```
