@@ -13,13 +13,13 @@
 </head>
 <body>
     <header>
-        <nav class="navbar is-size-5">
+        <nav class="navbar">
             <div class="navbar-brand has-text-weight-bold">
-                <a class="navbar-item" asp-area="" asp-page="/Index">KickMarket</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">KickMarket</a>
             </div>
             <div class="navbar-menu is-active">
-                <a class="navbar-item" asp-area="" asp-page="/Index">Home</a>
-                <a class="navbar-item" asp-area="" asp-page="/Privacy">Privacy</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
             </div>
         </nav>
     </header>
@@ -32,7 +32,7 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            &copy; 2024 - KickMarket - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2024 - KickMarket - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
 
