@@ -1,7 +1,13 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
+﻿/* Posicionar footer abajo en páginas pequeñas */
 main {
   padding: 1rem;
   min-height: calc(100vh - 220px);
+}
+
+/* Menú hamburguesa flotante */
+.navbar-menu {
+  &.is-active {
+    position: absolute;
+    width: 100%;
+  }
 }
