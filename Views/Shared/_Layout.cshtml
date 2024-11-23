@@ -16,10 +16,18 @@
         <nav class="navbar">
             <div class="navbar-brand has-text-weight-bold">
                 <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">KickMarket</a>
+                <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div class="navbar-menu is-active">
-                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="navbar-menu">
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Brands">Marcas</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Social">Social</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Sell">Vender</a>
             </div>
         </nav>
     </header>
@@ -32,7 +40,7 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            &copy; 2024 - KickMarket - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - KickMarket - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
         </div>
     </footer>
 
