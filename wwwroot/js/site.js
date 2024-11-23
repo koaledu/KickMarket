@@ -1,4 +1,10 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// @ts-check
+// Comprobación de errores con TypeScript
 
-// Write your JavaScript code.
+// Menú hamburguesa en móvil con JQuery
+$(function () {
+  $(".navbar-burger").on("click", function () {
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+  });
+});
