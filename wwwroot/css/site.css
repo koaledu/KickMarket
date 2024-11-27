@@ -142,3 +142,15 @@ body {
     transform: scale(1.05);
   }
 }
+
+@media (orientation: portrait) {
+  .is-justify-content-space-between {
+    display: inline;
+  }
+}
+
+@media (orientation: landscape) {
+  .is-justify-content-space-between {
+    display: flex;
+  }
+}
