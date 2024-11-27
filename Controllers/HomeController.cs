@@ -18,12 +18,12 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Brands()
+    public IActionResult Products()
     {
         return View();
     }
 
-    public IActionResult Social()
+    public IActionResult Brands()
     {
         return View();
     }

@@ -25,8 +25,8 @@
             </div>
             <div class="navbar-menu">
                 <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Products">Productos</a>
                 <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Brands">Marcas</a>
-                <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Social">Social</a>
                 <a class="navbar-item" asp-area="" asp-controller="Home" asp-action="Sell">Vender</a>
             </div>
         </nav>
@@ -40,6 +40,21 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
+            <p class="subtitle">Síguenos en redes sociales.</p>
+            <a href="https://facebook.com/">
+                <img
+                    alt="Facebook"
+                    src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"
+                >
+            </a>
+            <a href="https://instagram.com/">
+                <img
+                    alt="Instagram"
+                    src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"
+                >
+            </a>
+        </div>
+        <div class="has-text-centered">
             &copy; 2024 - KickMarket - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
         </div>
     </footer>
