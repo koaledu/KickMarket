@@ -1,7 +1,7 @@
 ﻿/* Posicionar footer abajo en páginas pequeñas */
 main {
   padding: 1rem;
-  min-height: calc(100vh - 220px);
+  min-height: calc(100vh - 325px);
 }
 
 /* Menú hamburguesa flotante */
